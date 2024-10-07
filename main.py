@@ -69,21 +69,3 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)
     asyncio.run(main())
 
-"""import openai
-
-openai.api_key = "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"
-
-def ask_medical_bot(user_input):
-    # Генерация ответа через OpenAI на медицинский вопрос
-    response = openai.Completion.create(
-        model="gpt-4",  # или gpt-3.5-turbo
-        prompt=f"User asks a medical question: {user_input}\nProvide a medically accurate response and suggest consulting a doctor for diagnosis.",
-        max_tokens=150
-    )
-    return response['choices'][0]['text'].strip()
-
-# Пример запроса
-question = "У меня боль в груди и затрудненное дыхание. Что это может быть?"
-answer = ask_medical_bot(question)
-print(answer)
-#7867027173:AAFY0VT0udiGKoXookbSkkiHqZvl4_Xj5QM    --к боту"""
